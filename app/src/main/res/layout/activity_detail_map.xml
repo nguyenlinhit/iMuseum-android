@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vn.edu.tdmu.imuseum.views.DetailMapActivity">
+
+
+    <com.google.vr.sdk.widgets.pano.VrPanoramaView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/vrPanoramaView"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </com.google.vr.sdk.widgets.pano.VrPanoramaView>
+
+    <!--<WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+    </WebView>-->
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vn.edu.tdmu.imuseum.views">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/demo_1"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".BeaconActivity" />
+        <activity android:name=".ArtifactActivity" />
+        <activity android:name=".WelcomActivity" />
+        <activity android:name=".NearYorActivity" />
+        <activity android:name=".ArtifactDetailActivity" />
+        <activity android:name=".ArtifactSaveActivity" />
+        <activity android:name=".ArtifactDetailSaveActivity" />
+        <activity android:name=".MapActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".DetailMapActivity" />
+        <activity android:name=".InfoMuseumActivity" />
+        <activity android:name=".LanguageSetting">
+
+        </activity>
+    </application>
+
+</manifest>

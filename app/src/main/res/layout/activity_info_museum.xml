@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:background="@drawable/hinhnenchinhhai"
+android:layout_height="match_parent"
+android:orientation="vertical"
+    tools:context="vn.edu.tdmu.imuseum.views.InfoMuseumActivity">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#CC2196F3"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="BẢO TÀNG BÌNH DƯƠNG"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_marginBottom="20dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="false"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/hinhanhslidermot" />
+
+            <TextView
+                android:id="@+id/textView02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:text="\tBảo tàng tỉnh Bình Dương tọa lạc tại số 565 đại lộ Bình Dương, phường Hiệp Thành, Tp. Thủ Dầu Một. Bởi nằm trên trục đường chính (quốc lộ 13 cũ), nơi qua lại tấp nập của cư dân trong và ngoài Tỉnh. Đó là một vị trí khá thuận lợi cho việc quảng bá hình ảnh của Bảo tàng đến với công chúng. Bên cạnh đó, Bảo tàng Bình Dương có mộtkhuôn viên khá đẹp, rộng rãi với nhiều cây xanh tỏa bóng mát có thể thu hút một số lượng lớn khách tham quan(hơn 1.000 người)." />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/anhgioithieumot" />
+
+            <TextView
+                android:id="@+id/textView03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:text="\tVới 4 không gian trưng bày đã gần như tái hiện một cách sinh động về lịch sử phát triển đất và người Bình Dương trên tất cả các lĩnh vực kinh tế. chính trị, văn hóa …. Diện tíchtrưng bày là 2000m2 bao gồm 1.300hiện vật gốc và 500 tài liệu khoa học phụ thể hiện qua 8 chuyên đề: Tự nhiên Bình Dương, Bình Dương thời tiền sử đến thế kỷ thứ 16, Bình Dương thời kỳ khai phá lập làng, Cộng đồng văn hóa các dân tộc, Bình Dương thời thuộc Pháp, kháng Pháp, thời kỳ chống Mỹ, Bình Dương trên đường hội nhập và phát triển và Các ngành nghề truyền thống ở tỉnh Bình Dương." />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_weight="0.76"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/anhgioithieuhaihai" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="180dp"
+                    android:layout_weight="0.76"
+                    android:scaleType="fitXY"
+                    app:srcCompat="@drawable/anhgioithieuhai" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:text="\tBên cạnh đó, những hiện vật có thể khối lớn được trưng bày ngoài trời như: máy bay trực thăng, xe tăng, súng thần công...đãbổ sung liên hoàn, hữu ích cho hệ thống trưng bày chính trong Bảo tàng.
+Bảo tàng Bình Dương là nơi lưu giữ một khối lượng hiện vật rất phong phú có giá trị về lịch sử, văn hóa và khoa học. Đó những di sản văn hóa vật thể có giá trị vô cùng quý hiếm từ khi xuất hiện cuộc sống sơ khai của con người như bộ sưu tậpBát Bồng ở di tích Cù Lao Rùa, bộ sưu tậpTrống đồng, công cụ dệt vải của di tích Phú Chánh, bộ sưu tập rìu đồng, khuôn đúc đồng, bộ rìu đá của di tích Dốc Chùa ....hay những hiện vật Dân tộc học đặc sắc: thuyền độc mộc, xe ngựa, cối xay lúa, cối giã gạo… đến những bộ sưu tập của các ngành nghề thủ công truyền thống tỉnh Bình Dương.
+Đểthu hút đông đảo khách đếntham quan,Bảo tàng còn thường xuyên tổ chức những cuộc triển lãm theo chuyên đề cung cấp những sự kiện, những thông tin mới. Bên cạnh đó, Bảo tàng còn liên kết phối hợp với các đơn vị cơ sở trưng bày, triển lãm thông qua các nhà truyền thống, đã giúp cho mọi tầng lớp nhân dân trong tỉnh được tiếp cận với những giá trị văn hóa truyền thống của địa phương mình." />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/anhgioithieuba" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:textColor="#000000"
+                android:text="\tHằng năm Bảo tàng đã tiếp nhận được nhiều hiện vật và tài liệu quý do nhiều đơn vị, cá nhântrao tặng hoặc cán bộ của Bảo tàng sưu tẩm, làm cho Bảo tàng phong phú hơn về nội dung. Chính vì vậy, nhiều trường học trong tỉnh và ngoài tỉnh đã tổ chức cho học sinh, sinh viên đến tham quan Bảo tàng, xem Bảo tàng Bình Dương là một điểm đến trong chương trình học ngoại khóa. Bảo tàng Bình Dương, là một địa chỉ văn hóa để khách tham quan từ các nơi đến và thưởng thức tinh hoa văn hóa truyền thống của người Bình Dương." />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtNguon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Nguồn : http://sovhttdl.binhduong.vn"
+            android:textAlignment="textEnd" />
+
+    </LinearLayout>
+</ScrollView>
+
+</LinearLayout>

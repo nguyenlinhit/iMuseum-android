@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBarSurvey"
+        android:layout_alignParentTop="true"
+        android:text="Comment"
+        android:typeface="serif"
+        android:padding="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/img_love"
+            android:layout_width="80dp"
+            android:src="@mipmap/ic_love"
+            android:layout_height="80dp"
+            android:contentDescription="" />
+        <ImageView
+            android:layout_width="80dp"
+            android:src="@mipmap/ic_normal"
+            android:layout_height="80dp"
+            android:contentDescription=""
+            android:id="@+id/img_nomal"/>
+        <ImageView
+            android:src="@mipmap/ic_sad"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:contentDescription=""
+            android:id="@+id/img_bad"/>
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ratingBarSurvey"
+        android:height="120dp"
+        android:clickable="true"
+        android:focusableInTouchMode="true"
+        android:background="@drawable/border_roundedcorner"
+        android:id="@+id/edt_comment"
+        android:inputType="textMultiLine"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Submit"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_background"
+            android:id="@+id/btn_submit" />
+
+        <Button
+            android:text="Cancel"
+            android:id="@+id/btn_cancel"
+            android:textColor="@color/White"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iVisitor</string>
+    <string name="device_name">Tên Thiết Bị</string>
+    <string name="no_name">Không Tên</string>
+    <string name="no_internet">Không Có Kết Nối Internet</string>
+    <string name="transition_logo_imuseum">Chuyển Đến iVisitor</string>
+    <string name="please_wait">Vui Lòng Chờ…</string>
+
+    <string name="txt_near_you"> Near Yor Fragment </string>
+    <string name="imuseum">iVisitor</string>
+    <string name="txt_items">Hiện Vật</string>
+    <string name="txt_personal">Cá Nhân</string>
+    <string name="txt_setting_no_underline">Thiết Lập</string>
+    <string name="txt_favorite_items">Hiện Vật Ưa Thích</string>
+    <string name="navigation_drawer_open">Mở Navigation</string>
+    <string name="navigation_drawer_close">Đóng Navigation</string>
+
+
+    <string name="action_settings">Thiết Lập</string>
+    <string name="open">Mở</string>
+    <string name="close">Đóng</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Màn hình trống</string>
+    <string name="tr_ng_ng_ng_s_n">Trống Đồng Đông Sơn</string>
+    <string name="ng_s_n_thanh_ho">(Đông Sơn - Thanh Hóa)</string>
+    <string name="detail">Chi Tiết</string>
+    <string name="hinh_anh_hien_vat">Hình Ảnh Hiện Vật</string>
+    <string name="seting">Thiết Lập</string>
+    <string name="smart_city">Smart City</string>
+    <string name="icon_app">Icon App</string>
+    <string name="hi_n_v_t">Hiện Vật</string>
+    <string name="map">Thực Tế Ảo</string>
+    <string name="favotite">Ưa Thích</string>
+    <string name="setting">Thiết Lập</string>
+    <string name="about">Giới Thiệu</string>
+    <string name="change_language_title">Ngôn Ngữ</string>
+</resources>

@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">iVisitor</string>
+    <string name="device_name">Device Name</string>
+    <string name="no_name">No Name</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="transition_logo_imuseum">Transition Logo iVisitor</string>
+    <string name="please_wait">Please Wait…</string>
+
+    <string name="txt_near_you"> Near Yor Fragment </string>
+    <string name="imuseum">iVisitor</string>
+    <string name="txt_items">Artifact</string>
+    <string name="txt_personal">Personal</string>
+    <string name="txt_setting_no_underline">Settings</string>
+    <string name="txt_favorite_items">Favorite Artifact</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tr_ng_ng_ng_s_n">Dong Son Bronze Drum</string>
+    <string name="ng_s_n_thanh_ho">(Đnog Son - Thanh Hoa)</string>
+    <string name="detail">Detail</string>
+    <string name="hinh_anh_hien_vat">Picture Gallery</string>
+    <string name="seting">Seting</string>
+    <string name="smart_city">Smart City</string>
+    <string name="icon_app">Icon App</string>
+    <string name="hi_n_v_t">Artifact</string>
+    <string name="map">Map</string>
+    <string name="favotite">Favorite</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+
+
+    <!--untranslatable-->
+    <string name="language_english" translatable="false">English</string>
+    <string name="language_chinese" translatable="false">中文</string>
+    <string name="language_vietnamese" translatable="false">Tiếng Việt</string>
+
+    <string-array name="language_names">
+        <item>@string/language_english</item>
+        <item>@string/language_chinese</item>
+        <item>@string/language_vietnamese</item>
+    </string-array>
+
+    <string name="language_english_code" translatable="false">en</string>
+    <string name="language_chinese_code" translatable="false">zh</string>
+    <string name="language_vietnamese_code" translatable="false">vi</string>
+    <string name="change_language_title">Language</string>
+    <string name="museum">Bảo Tàng Bình Dương</string>
+    <string name="pagoda">Chùa Hội Khánh</string>
+    <string name="university">Đại Học Thủ Dầu Một</string>
+    <string name="administrativebuilding">Trung Tâm Hành Chính Tỉnh Bình Dương</string>
+
+    <string-array name="language_codes">
+        <item>@string/language_english_code</item>
+        <item>@string/language_chinese_code</item>
+        <item>@string/language_vietnamese_code</item>
+    </string-array>
+</resources>

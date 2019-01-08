@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">iVisitor</string>
+    <string name="device_name">设备名称</string>
+    <string name="no_name">无名</string>
+    <string name="no_internet">没有网络连接</string>
+    <string name="transition_logo_imuseum">过渡标志iVisitor</string>
+    <string name="please_wait">请稍候…</string>
+
+    <string name="txt_near_you"> Near Yor Fragment </string>
+    <string name="imuseum">iVisitor</string>
+    <string name="txt_items">神器</string>
+    <string name="txt_personal">个人</string>
+    <string name="txt_setting_no_underline">设置</string>
+    <string name="txt_favorite_items">最喜欢的神器</string>
+    <string name="navigation_drawer_open">打开导航抽屉</string>
+    <string name="navigation_drawer_close">关闭导航抽屉</string>
+
+
+    <string name="action_settings">设置</string>
+    <string name="open">打开</string>
+    <string name="close">关</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">你好空白片段</string>
+    <string name="tr_ng_ng_ng_s_n">涂料公司</string>
+    <string name="ng_s_n_thanh_ho">（Dong Son - Thanh Hoa）</string>
+    <string name="detail">详细</string>
+    <string name="hinh_anh_hien_vat">图片库</string>
+    <string name="seting">建立</string>
+    <string name="smart_city">Smart City</string>
+    <string name="icon_app">Icon App</string>
+    <string name="hi_n_v_t">文物</string>
+    <string name="map">虚拟现实</string>
+    <string name="favotite">喜爱</string>
+    <string name="setting">通知</string>
+    <string name="about">关于</string>
+    <string name="change_language_title">语言</string>
+</resources>
